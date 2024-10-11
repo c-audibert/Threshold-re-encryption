@@ -5,20 +5,16 @@ Secure communications and data storage are major challenges in the challenges in
 
 In the first two sections of the paper, we provide the mathematical basis for the implementation. These include proofs of t-privacy, as well as the formula for reconstruction from shares. In the next two sections, we look at the 0 and 1-privacy cases for their implementation, including definitions of the Encryption and Decryption functions, and the affine form corresponding to the machine system.
 
+This project was created by Clemace Audibet, Gabrielle Lalou, and Alexis Mellier.
+
 ## Directory Structure
 
 ```
 .
 │   PROJ104_latex_24.06.pdf
-│   README.md
 │   secret-sharing.pdf
 │   SUIVI.md
-│   Travail_préalable_à_l_implémentation.pdf
 │
-├───Bibliographie
-│       .gitkeep
-│       Article_1_Gentry_Halevi_Lyubashevsky.pdf
-│       Article_2_Shamir_how_to_share_a_secret.pdf
 │
 ├───code_intermédiaire
 │   │   Cargo.lock
