@@ -10,15 +10,9 @@ In the first two sections of the paper, we provide the mathematical basis for th
 ```
 .
 │   PROJ104_latex_24.06.pdf
-│   README.md
 │   secret-sharing.pdf
 │   SUIVI.md
-│   Travail_préalable_à_l_implémentation.pdf
 │
-├───Bibliographie
-│       .gitkeep
-│       Article_1_Gentry_Halevi_Lyubashevsky.pdf
-│       Article_2_Shamir_how_to_share_a_secret.pdf
 │
 ├───code_intermédiaire
 │   │   Cargo.lock
