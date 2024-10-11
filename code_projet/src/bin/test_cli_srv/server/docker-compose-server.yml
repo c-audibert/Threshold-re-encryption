@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  server:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    networks:
+      mynetwork:
+        ipv4_address: 172.19.0.2
+    ports:
+      - "8080:8080"
+
+networks:
+  mynetwork:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.19.0.0/24
