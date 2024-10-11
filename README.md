@@ -132,7 +132,7 @@ cargo test
 
 ### 5. Docker Support
 
-Soon
+Coming soon... Next feature 
 
 ## Documentation
 
