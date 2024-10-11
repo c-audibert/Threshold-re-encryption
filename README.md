@@ -1,5 +1,5 @@
 
-# Secret Sharing Project
+# Threshold-re-encryption Project
 
 This project implements secret sharing and other cryptographic functionalities using Rust. The repository is organized into various directories for project code, intermediate tests, and necessary documentation.
 
