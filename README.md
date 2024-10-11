@@ -11,7 +11,7 @@ This project was created by Clemace Audibet, Gabrielle Lalou, and Alexis Mellier
 
 ```
 .
-│   PROJ104_latex_24.06.pdf
+│   Threshold re-encryption.pdf
 │   secret-sharing.pdf
 │   SUIVI.md
 │
@@ -31,7 +31,7 @@ This project was created by Clemace Audibet, Gabrielle Lalou, and Alexis Mellier
 │   └───target
 │           .rustc_info.json
 │
-└───code_projet
+└───code
     │   Cargo.lock
     │   Cargo.toml
     │
