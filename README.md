@@ -1,11 +1,11 @@
 
 # Threshold-re-encryption 
 
-Secure communications and data storage are major challenges in the challenges in the field of cryptography. Algorithms based on the "Learning With Errors" (LWE) problem and Shamir's secret sharing have have emerged as robust solutions for ensuring information confidentiality and integrity. In this paper, we explore an approach that combines these two cryptographic techniques to create a threshold-based re-encryption system. Our main objective is to answer the following problem: “A company needs to secure its vault password. It could use a standard method but what if the key holder is unavailable or dies? What happens if the key is compromised by a malicious hacker or if the key holder decides to betray the company, and uses his power over the safe to his own advantage?“ To guarantee the security of this password, n colleagues in the company have access to what we call a “share”, a part of the password. It takes t + 1 shares to reconstruct this password, so that a number of shares lower than t does not allow access the password.
+Secure communications and data storage are major challenges in the challenges in the field of cryptography. Algorithms based on the "Learning With Errors" (LWE) problem and Shamir's secret sharing have emerged as robust solutions for ensuring information confidentiality and integrity. In this paper, we explore an approach that combines these two cryptographic techniques to create a threshold-based re-encryption system. Our main objective is to answer the following problem: “A company needs to secure its vault password. It could use a standard method but what if the key holder is unavailable or dies? What happens if the key is compromised by a malicious hacker or if the key holder decides to betray the company, and uses his power over the safe to his own advantage?“ To guarantee the security of this password, n colleagues in the company have access to what we call a “share”, a part of the password. It takes t + 1 shares to reconstruct this password, so that a number of shares lower than t does not allow access the password.
 
 In the first two sections of the paper, we provide the mathematical basis for the implementation. These include proofs of t-privacy, as well as the formula for reconstruction from shares. In the next two sections, we look at the 0 and 1-privacy cases for their implementation, including definitions of the Encryption and Decryption functions, and the affine form corresponding to the machine system.
 
-This project was created by Clemace Audibet, Gabrielle Lalou, and Alexis Mellier.
+This project was created by Clémence Audibert, Gabrielle Lalou, and Alexis Mellier.
 
 ## Directory Structure
 
@@ -15,21 +15,6 @@ This project was created by Clemace Audibet, Gabrielle Lalou, and Alexis Mellier
 │   secret-sharing.pdf
 │   SUIVI.md
 │
-│
-├───code_intermédiaire
-│   │   Cargo.lock
-│   │   Cargo.toml
-│   │
-│   ├───src
-│   │   └───bin
-│   │           Gaussian.rs
-│   │           Gaussian.rs.old
-│   │           lwe.rs
-│   │           secret_share.rs
-│   │           testShare.rs
-│   │
-│   └───target
-│           .rustc_info.json
 │
 └───code
     │   Cargo.lock
@@ -51,15 +36,6 @@ This project was created by Clemace Audibet, Gabrielle Lalou, and Alexis Mellier
             │       r_secret_share
             │       skA_secret_share
             │
-            ├───old
-            │       gaussian.rs
-            │       Gaussian.rs.old
-            │       lagrange_interpolation
-            │       lwe.rs
-            │       SSSS.rs
-            │       test.rs
-            │       test_gaussian.rs
-            │       test_regev.rs
 
 ```
 
