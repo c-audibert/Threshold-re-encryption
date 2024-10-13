@@ -104,7 +104,10 @@ cargo test
 
 Coming soon... Next feature 
 
+## 6. Functional Tests
+Functional tests are available in the file [test_system.rs](https://github.com/Alexisdevpro/Threshold-re-encryption/blob/test_feature/code/src/bin/test_system.rs) on the `test_feature` branch. This file contains unit and integration tests to ensure the proper functioning of the various features of the re-encryption system.
+
 ## Documentation
 
 - **Bibliography**: The `Bibliographie/` directory contains research articles and other reference materials used for this project.
-- **Project Reports**: Project reports and initial research can be found in the root directory (`PROJ104_latex_24.06.pdf`, `secret-sharing.pdf`, etc.).
+- **Project Reports**: Project reports and initial research can be found in the root directory (`PROJ104_latex_24.06.pdf`, etc.).
