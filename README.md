@@ -35,6 +35,9 @@
 
 ```
 
+## Functional Tests
+Functional tests are available in the file [test_system.rs](https://github.com/Alexisdevpro/Threshold-re-encryption/blob/test_feature/code/src/bin/test_system.rs) on the `test_feature` branch. This file contains unit and integration tests to ensure the proper functioning of the various features of the re-encryption system.
+
 ## How to Run the Project
 
 To execute a specific file from the project, follow these steps:
@@ -104,8 +107,6 @@ cargo test
 
 Coming soon... Next feature 
 
-## 6. Functional Tests
-Functional tests are available in the file [test_system.rs](https://github.com/Alexisdevpro/Threshold-re-encryption/blob/test_feature/code/src/bin/test_system.rs) on the `test_feature` branch. This file contains unit and integration tests to ensure the proper functioning of the various features of the re-encryption system.
 
 ## Documentation
 
