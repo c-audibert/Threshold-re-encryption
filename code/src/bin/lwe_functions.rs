@@ -225,4 +225,6 @@ fn test_encryption_decryption() -> Result<(), String>{
 fn main() {
     //test_encryption_decryption();
     //test_encryption_decryption();
+    let test = keygen();
+    println!("{:?}", test.0.a);
 }
