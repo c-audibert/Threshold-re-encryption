@@ -122,8 +122,8 @@ The test files are located in the `test_feature` branch. To run the tests, you n
 
 ```bash
 git checkout test_feature
-cargo run --bin test_system.rs
 ```
+And check README.
 
 
 
