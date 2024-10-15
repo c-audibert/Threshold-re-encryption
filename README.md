@@ -1,7 +1,16 @@
 
 # Threshold-re-encryption 
 
-
+- [Directory Structure](#directory-structure)
+- [How to Run the Project](#how-to-run-the-project)
+- [Setting Up Rust Environment](#setting-up-rust-environment)
+   - [1. Install Rust](#1-install-rust)
+   - [2. Clone the Repository](#2-clone-the-repository)
+   - [3. Build the Project](#3-build-the-project)
+   - [4. Run Tests (Optional)](#4-run-tests-optional)
+   - [5. Docker Support](#5-docker-support)
+- [Running Tests](#running-tests)
+- [Documentation](#documentation)
 
 ## Directory Structure
 
@@ -106,6 +115,16 @@ cargo test
 ### 5. Docker Support
 
 Coming soon... Next feature 
+
+## Running Tests
+
+The test files are located in the `test_feature` branch. To run the tests, you need to switch to this branch first:
+
+```bash
+git checkout test_feature
+cargo run --bin test_system.rs
+```
+
 
 
 ## Documentation
