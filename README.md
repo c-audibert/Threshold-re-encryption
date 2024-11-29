@@ -131,3 +131,7 @@ And check README.
 
 - **Bibliography**: The `Bibliographie/` directory contains research articles and other reference materials used for this project.
 - **Project Reports**: Project reports and initial research can be found in the root directory (`PROJ104_latex_24.06.pdf`, etc.).
+
+### Acknowledgements
+
+Thanks to Alexis Mellier, a team member, who wrote the scripts.
